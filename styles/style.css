@@ -456,10 +456,16 @@ footer p {
 
     .section-img {
         width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .section-img div {
         margin: 0px;
+        margin-top: 20px;
     }
 
     .facts-section .section-description {
@@ -503,6 +509,10 @@ footer p {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 30px;
+    }
+
+    article {
+        width: 80%;
     }
 
     footer p {
@@ -592,3 +602,4 @@ footer p {
         margin: 50px;
 
     }
+}
